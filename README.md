@@ -1,2 +1,2 @@
 # p5js-training
-Learning p5!
+Learning javascript with p5!
