@@ -1,15 +1,20 @@
-var circleX = 0;
+var circle = {
+	x : 0,
+	y: 200,
+	diameter: 50
+};
+
+var r = 218;
+var g = 160;
+var b = 221;
 
 function setup() {
 createCanvas(600, 400);
 }
 
 function draw() {  
-background(250, 250, 100);
-fill(250, 200, 200, 50);
-ellipse(circleX, 200, 80, 80);
+background(r, g , b);
+ellipse(circle.x, circle.y, circle.diameter, circle.diameter);
 
-circleX = circleX + 1;
-if (circleX >= 400)
-circleX = 0;
+ circle.x = circle.x + 1;
 }
